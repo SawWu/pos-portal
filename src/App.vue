@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Nav/>
-    <router-view/>
+    <div class="main">
+      <router-view/>
+    </div>
   </div>
 </template>
 <style lang="less">

@@ -31,8 +31,8 @@
     @import "../../assets/less/nav.less";
 </style>
 <script>
-    export default {
-    name: 'nav'
+  export default {
+    name: 'leftNav'
   }
 </script>
 
