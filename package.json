@@ -1,15 +1,17 @@
 {
-  "name": "vue-portal",
+  "name": "pos-portal",
   "version": "1.0.0",
   "description": "快餐店收银系统",
   "author": "SawWu <2804265880@qq.com>",
   "private": true,
+  "license": "POS",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "rm -rf dist && node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "element-ui": "^2.0.10",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
