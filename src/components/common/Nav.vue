@@ -32,7 +32,11 @@
 </style>
 <script>
   export default {
-    name: 'leftNav'
+    name: 'leftNav',
+    mounted:function(){
+       let orderHeight=document.body.clientHeight || document.documentElement.clientHeight;
+        document.getElementsByClassName("left-nav")[0].style.height=orderHeight+'px';
+    },
   }
 </script>
 
