@@ -13,19 +13,58 @@
     border-bottom:1px solid #D3DCE6;
     background-color: #F9FAFC;
     padding:10px;
+    text-align: left;
   }
 
   & .often-goods-list{
     & ul{
       & li{
-        float:left;
         border:1px solid #E5E9F2;
         padding:10px;
         margin:5px;
         background-color:#fff;
+        float:left;
 
         & .o-price{
           color:#58B7FF;
+        }
+      }
+    }
+  }
+}
+
+.goods-type{
+ clear:both;
+
+  & .cookList{
+    & li{
+      width:23%;
+      border:1px solid #E5E9F2;
+      height: auto;
+      overflow: hidden;
+      background-color:#fff;
+      padding: 2px;
+      float:left;
+      margin: 2px;
+
+      & span{
+        display: block;
+        float:left;
+
+        &.foodImg{
+          width: 40%;
+        }
+
+        &.foodName{
+          font-size: 18px;
+          padding-left: 10px;
+          color:brown;
+        }
+
+        &.foodPrice{
+          font-size: 16px;
+          padding-left: 10px;
+          padding-top:10px;
         }
       }
     }
